@@ -1,0 +1,29 @@
+/* Apply basic styling to form elements */
+form {
+    width: 300px; /* Adjust width as needed */
+    margin: auto; /* Center the form horizontally */
+  }
+  
+  /* Add some space between form elements */
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+  }
+  
+  /* Style the submit button */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: olive; /* Change to your desired button color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Change button color on hover */
+  button:hover {
+    background-color:black; /* Change to a darker shade or desired hover color */
+  }
+  

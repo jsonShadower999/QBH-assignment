@@ -1,0 +1,6 @@
+<p>pdfview works!</p>
+
+  <div class="pdf-container" *ngIf="pdfUrl">
+    <div>{{pdfUrl}}</div>
+    <embed [src]="pdfUrl" type="application/pdf" width="100%" height="600px" />
+  </div>

@@ -1,0 +1,56 @@
+/* Table styles */
+#tableToPDF {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table header styles */
+  thead th {
+    background-color: black; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Table body styles */
+  tbody td {
+    border-bottom: 1px solid #ddd; /* Border between rows */
+    padding: 8px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 8px 16px;
+    background-color:powderblue; /* Button background color */
+    color:black; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    background-color:purple; /* Button background color on hover */
+  }
+  .inner-btn{
+    background-color: goldenrod !important;
+
+  }
+  
+  
+  /* PDF container styles */
+  .pdf-container {
+    margin-top: 20px;
+  }
+  
+  /* PDF view styles */
+  .pdfview {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

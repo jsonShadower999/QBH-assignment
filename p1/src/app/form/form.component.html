@@ -1,0 +1,11 @@
+<form [formGroup]="form" (ngSubmit)="submitForm()">
+    <label>Provide in user name:</label>
+    <input type="text" formControlName="name" placeholder="Name">
+    <label>Provide in user email:</label>
+    <input type="email" formControlName="email" placeholder="Email">
+    <label>Provide in user Contact <Details></Details></label>
+    <input type="text" formControlName="phoneNumber" placeholder="Phone Number">
+    <label>Provide in user Address & Residence Information</label>
+    <input type="text" formControlName="address" placeholder="Address">
+    <button type="submit">Submit</button>
+  </form>
