@@ -1,3 +1,22 @@
+there are two branch in QBH assignment 
+main
+mainfrontend
+
+extract the content of main branch 
+..\QBH-assignment-main : npm i express --force
+                       : nest start  --------------------------------------server running at localhost 3000
+
+extract the content of mainfrontend branch in next_editor window for frontend related code
+
+..\QBH-assignment-mainfrontend.zip\QBH-assignment-mainfrontend\p1  :  npm install
+                                                                   :  ng s--------------------------------frontend running at localhost:4200
+
+Perform this to access functionality.
+
+
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
